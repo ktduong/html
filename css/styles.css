@@ -5,9 +5,22 @@ body{
 	background-color: #f7ead7;
 }
 .home h2{
-	font-family: 'Aleo', 'Roboto Slab', serif;
-	font-size: 2em;
+	font-family: 'Josefin Slab', serif;
+	font-size: 1em;
+	font-weight: 600;
 	border-bottom: 2px solid #5A3B00;
+	color: #5A3B00;
+}
+.home h4{
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.1em;
+	font-weight: 700;
+	line-height: 1.5em;
+	color: #9F2214;
+	text-align: center;
+}
+.home p{
+	text-align: center;
 }
 .home-footer{
 	background-color: #5A3B00; 
