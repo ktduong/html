@@ -5,8 +5,21 @@ body{
 	padding-top: 1em;
 
 }
-.icon-bar{
-	color: red;
+.home nav span{
+	background-color: #5A3B00;
+	
+}
+
+.home nav a{
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 700;
+	color: #5A3B00;
+}
+.home .nav .active a{
+	border-bottom: 2px solid #5A3B00;
+	
+
 }
 .home{
 	background-color: #f7ead7;
@@ -99,7 +112,22 @@ body{
 	line-height: 3em;
 	color: #0A3542;
 }
+.work-bg nav span{
+	background-color: #0A3542;
+	
+}
 
+.work-bg nav a{
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 700;
+	color: #5A3B00;
+}
+.work-bg .nav .active a{
+	border-bottom: 2px solid #5A3B00;
+	
+
+}
 .work-bg{
 	background-color: #C6CDC7;
 }
@@ -165,7 +193,22 @@ body{
 	padding-bottom: 2em;
 	border: none;
 }
+.about nav span{
+	background-color: #0A3542;
+	
+}
 
+.about nav a{
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 700;
+	color: #5A3B00;
+}
+.about .nav .active a{
+	border-bottom: 2px solid #5A3B00;
+	display: inline-block;
+
+}
 
 .about{
 	background-color: #231F20;
@@ -200,6 +243,7 @@ body{
 	
 	
 }
+
 .about a{
 	color: #FBC676;
 	font-family: 'Rokkitt', serif;
