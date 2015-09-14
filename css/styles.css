@@ -5,23 +5,50 @@ body{
 	background-color: #f7ead7;
 }
 .home h2{
-	font-family: 'Josefin Slab', serif;
-	font-size: 1em;
-	font-weight: 600;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 700;
 	border-bottom: 2px solid #5A3B00;
+	
 	color: #5A3B00;
 }
-.home h4{
-	font-family: 'Josefin Slab', serif;
-	font-size: 1.1em;
+.home h6{
+	font-family: 'Rokkitt', serif;
+	font-size: 0.875em;
 	font-weight: 700;
-	line-height: 1.5em;
+	color: #9F2214;
+}
+.home h4{
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 700;
+	line-height: 1.2em;
 	color: #9F2214;
 	text-align: center;
 }
+
 .home p{
+	font-family: 'Lato', sans-serif;
+	font-size: 0.9em;
 	text-align: center;
+	font-weight: 400;
+   	line-height: 1.5em;
+    
 }
+
 .home-footer{
 	background-color: #5A3B00; 
+	text-align: center;
+}
+.home-footer p{
+	color: #ffffff;
+}
+.home-footer a{
+	color: #FBC676;
+}
+.home-footer h4{
+	color: #ffffff;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.7em;
+	font-weight: 700;
 }
