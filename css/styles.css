@@ -140,6 +140,13 @@ body{
 	color: #0A3542;
 
 }
+.work-bg h3{
+	font-family: 'Rokkitt', serif;
+	font-size: 0.875em;
+	font-weight: 700;
+	color: #9F2214;
+	padding-left: 1.5em;
+}
 .work-bg h4{
 	color: #0A3542;
 	font-family: 'Rokkitt', serif;
