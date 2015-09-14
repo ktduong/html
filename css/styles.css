@@ -63,6 +63,14 @@ body{
 	color: #FBC676;
 	padding-left: 1.7em;
 }
+.home-footer h2{
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 700;
+	
+	border-bottom: 2px solid #ffffff;
+	color: #ffffff;
+}
 .home-footer h4{
 	padding-top: 7em;
 	color: #ffffff;
@@ -155,7 +163,9 @@ body{
 .close-up iframe{
 	padding-top: 2em;
 	padding-bottom: 2em;
+	border: none;
 }
+
 
 .about{
 	background-color: #231F20;
@@ -183,6 +193,13 @@ body{
 	color:#ffffff;
 	text-align: center;
 }
+.about span{
+	font-size:3em; 
+	padding-right: .3em;
+	float: left;
+	
+	
+}
 .about a{
 	color: #FBC676;
 	font-family: 'Rokkitt', serif;
@@ -192,7 +209,10 @@ body{
 	padding-bottom: 2em;
 	text-align: center;
 }
-
+.about img{
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+}
 .about-footer{
 	background-color: #0A3542; 
 	
