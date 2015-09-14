@@ -50,6 +50,7 @@ body{
 }
 
 
+
 .home-footer{
 	background-color: #5A3B00; 
 	
@@ -73,10 +74,141 @@ body{
 	padding-left: 1em;
 	padding-top: 1em;
 	padding-bottom: 1.3em;
+	max-width: 100%;
 
 }
 .squiggle-footer{
 	padding-left: 1.3em;
 	padding-top: 2em;
 	padding-bottom: 9em;
+	max-width: 100%;
+}
+
+.secondary{
+	font-family: 'Rokkitt', serif;
+	font-size: 0.875em;
+	font-weight: 400;
+	line-height: 3em;
+	color: #0A3542;
+}
+
+.work-bg{
+	background-color: #C6CDC7;
+}
+.work-bg h2{
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 700;
+	
+	border-bottom: 2px solid #0A3542;
+	color: #0A3542;
+
+}
+.work-bg h4{
+	color: #0A3542;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 400;
+	text-align: center;
+}
+.work-bg p{
+	font-family: 'Rokkitt', serif;
+	font-size: 0.875em;
+	font-weight: 400;
+	color:#0A3542;
+	text-align: center;
+}
+.work-bg a{
+	color: #9F2214;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 700;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+.work-footer{
+	background-color: #9F2214; 
+	
+}
+.work-footer p{
+	color: #ffffff;
+	text-align: center;
+}
+.work-footer a{
+	color: #FBC676;
+	padding-left: 1.7em;
+}
+.work-footer h4{
+	padding-top: 7em;
+	color: #ffffff;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 700;
+}
+
+.close-up img{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+.close-up iframe{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.about{
+	background-color: #231F20;
+}
+.about h2{
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 700;
+	
+	border-bottom: 2px solid #ffffff;
+	color: #ffffff;
+
+}
+.about h4{
+	color: #ffffff;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 400;
+	text-align: center;
+}
+.about p{
+	font-family: 'Rokkitt', serif;
+	font-size: 0.875em;
+	font-weight: 400;
+	color:#ffffff;
+	text-align: center;
+}
+.about a{
+	color: #FBC676;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 700;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+.about-footer{
+	background-color: #0A3542; 
+	
+}
+.about-footer p{
+	color: #ffffff;
+	text-align: center;
+}
+.about-footer a{
+	color: #FBC676;
+	padding-left: 1.7em;
+}
+.about-footer h4{
+	padding-top: 7em;
+	color: #ffffff;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 700;
 }
