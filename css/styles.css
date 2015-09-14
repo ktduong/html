@@ -3,7 +3,26 @@ body{
 }
 .navbar{
 	padding-top: 1em;
-
+}
+@media (max-width: 767px){
+	.nav li{
+	display: block;
+	background-color: #C6CDC7;
+}
+.navbar-collapse{
+	padding-bottom: 5em;
+	padding-top: 5em;
+	background-color: #0A3542;
+}
+}
+.nav a{
+	color: #7E6B71;
+}
+.homepic{
+	padding-top: 1.5em;
+}
+.squiggle-blue{
+	width: 100%;
 }
 .home nav span{
 	background-color: #5A3B00;
@@ -19,11 +38,11 @@ body{
 .home .nav .active a{
 	border-bottom: 2px solid #5A3B00;
 	
-
 }
 .home{
 	background-color: #f7ead7;
 }
+
 .home h2{
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
@@ -31,15 +50,15 @@ body{
 	
 	border-bottom: 2px solid #5A3B00;
 	color: #5A3B00;
-
-
 }
 .home h6{
 	font-family: 'Rokkitt', serif;
 	font-size: 0.875em;
 	font-weight: 700;
 	color: #9F2214;
-	padding-left: 1.5em;
+	
+	width: 100%;
+
 }
 .home h4{
 	font-family: 'Rokkitt', serif;
@@ -74,8 +93,10 @@ body{
 }
 .home-footer a{
 	color: #FBC676;
-	padding-left: 1.7em;
+
+	
 }
+
 .home-footer h2{
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
@@ -90,6 +111,7 @@ body{
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
 	font-weight: 700;
+	text-align: center;
 }
 .mail {
 	padding-left: 1em;
@@ -99,7 +121,7 @@ body{
 
 }
 .squiggle-footer{
-	padding-left: 1.3em;
+		padding-left: 1.3em;
 	padding-top: 2em;
 	padding-bottom: 9em;
 	max-width: 100%;
@@ -140,13 +162,6 @@ body{
 	color: #0A3542;
 
 }
-.work-bg h3{
-	font-family: 'Rokkitt', serif;
-	font-size: 0.875em;
-	font-weight: 700;
-	color: #9F2214;
-	padding-left: 1.5em;
-}
 .work-bg h4{
 	color: #0A3542;
 	font-family: 'Rokkitt', serif;
@@ -181,7 +196,7 @@ body{
 }
 .work-footer a{
 	color: #FBC676;
-	padding-left: 1.7em;
+	
 }
 .work-footer h4{
 	padding-top: 7em;
