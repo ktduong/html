@@ -32,7 +32,7 @@ body{
 }
 .home{
 	background-color: #f7ead7;
-	
+
 }
 
 .home h2{
@@ -48,7 +48,7 @@ body{
 	font-size: 0.875em;
 	font-weight: 700;
 	color: #9F2214;
-	
+	text-align: center;
 	width: 100%;
 
 }
@@ -85,7 +85,8 @@ body{
 }
 .home-footer a{
 	color: #FBC676;
-
+	padding-left: 2.8em;
+	padding-bottom: 1em;	
 	
 }
 
@@ -105,16 +106,14 @@ body{
 	font-weight: 700;
 	text-align: center;
 }
-.mail img{
-	vertical-align: middle;
+.mail{
+	padding-left: 1.3em;
 	padding-top: 1em;
 	padding-bottom: 2em;
 	max-width: 100%;
 
 }
-.email{
-	text-align: center;
-}
+
 .squiggle-footer{
 		padding-left: 1.3em;
 	padding-top: 2em;
@@ -331,9 +330,12 @@ body{
 	padding-bottom: 5em;
 	padding-top: 5em;
 	background-color: #0A3542;
+}	
 }
-	.name h3{
-		text-align: center;
-
-	}
+@media (max-width: 359px){
+.home-footer a{
+	color: #FBC676;
+	padding-left: 2em;
+	padding-bottom: 1em;
+	
 }
