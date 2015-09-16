@@ -5,13 +5,13 @@ body{
 	padding-top: 1em;
 }
 
-.nav a{
+.home .nav a{
 	color: #7E6B71;
 }
 .homepic{
 	padding-top: 1.5em;
 }
-.squiggle-blue{
+.home .squiggle-blue{
 	width: 100%;
 }
 .home nav span{
@@ -39,8 +39,6 @@ body{
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
 	font-weight: 700;
-	
-	border-bottom: 2px solid #5A3B00;
 	color: #5A3B00;
 }
 .home h3{
@@ -94,8 +92,6 @@ body{
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
 	font-weight: 700;
-	
-	border-bottom: 2px solid #ffffff;
 	color: #ffffff;
 }
 .home-footer h4{
@@ -121,28 +117,26 @@ body{
 	max-width: 100%;
 }
 
-.secondary{
-	font-family: 'Rokkitt', serif;
-	font-size: 0.875em;
-	font-weight: 400;
-	line-height: 3em;
-	color: #0A3542;
-}
+
+
 .work-bg nav span{
 	background-color: #0A3542;
-	
+
 }
 
 .work-bg nav a{
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
 	font-weight: 700;
-	color: #5A3B00;
+	color: #0A3542;
 }
 .work-bg .nav .active a{
-	border-bottom: 2px solid #5A3B00;
-	
-
+	color: #ffffff;
+	font-weight: 700;
+}
+.work-bg .squiggle-blue{
+	width: 100%;
+	padding-bottom: 2em;
 }
 .work-bg{
 	background-color: #C6CDC7;
@@ -151,17 +145,17 @@ body{
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
 	font-weight: 700;
-	
-	border-bottom: 2px solid #0A3542;
 	color: #0A3542;
 
 }
 .work-bg h3{
 	font-family: 'Rokkitt', serif;
+	margin-top: 0;
 	font-size: 0.875em;
 	font-weight: 700;
 	color: #9F2214;
 	width: 100%;
+	text-align: center;
 }
 .work-bg h4{
 	color: #0A3542;
@@ -197,6 +191,8 @@ body{
 }
 .work-footer a{
 	color: #FBC676;
+	padding-left: 2.8em;
+	padding-bottom: 1em;
 	
 }
 .work-footer h4{
@@ -205,6 +201,7 @@ body{
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
 	font-weight: 700;
+	text-align: center;
 }
 .arrows img{
 	padding-top: .4em;
@@ -222,7 +219,7 @@ body{
 	border: none;
 }
 .about nav span{
-	background-color: #0A3542;
+	background-color: #ffffff;
 	
 }
 
@@ -230,11 +227,11 @@ body{
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
 	font-weight: 700;
-	color: #5A3B00;
+	color: #ffffff;
 }
 .about .nav .active a{
-	border-bottom: 2px solid #5A3B00;
-	display: inline-block;
+	color: #5A3B00;
+	font-weight: 700;
 
 }
 
@@ -245,8 +242,6 @@ body{
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
 	font-weight: 700;
-	
-	border-bottom: 2px solid #ffffff;
 	color: #ffffff;
 
 }
@@ -264,14 +259,6 @@ body{
 	color:#ffffff;
 	text-align: center;
 }
-.about span{
-	font-size:3em; 
-	padding-right: .3em;
-	float: left;
-	
-	
-}
-
 .about a{
 	color: #FBC676;
 	font-family: 'Rokkitt', serif;
@@ -295,7 +282,8 @@ body{
 }
 .about-footer a{
 	color: #FBC676;
-	padding-left: 1.7em;
+	padding-left: 2.8em;
+	padding-bottom: 1em;
 }
 .about-footer h4{
 	padding-top: 7em;
@@ -303,8 +291,56 @@ body{
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
 	font-weight: 700;
+	text-align: center;
+}
+.contact nav a{
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 400;
+	color: #ffffff;
+}
+.contact .nav .active a{
+	color: #5A3B00;
+	font-weight: 700;
+
+}
+.contact nav span{
+	background-color: #ffffff;
+	
+}
+.contact{
+	background-color: #5A3B00; 
+	
+}
+.contact-f{
+	background-color: #5A3B00; 
+	
+}
+.contact-f p{
+	color: #ffffff;
+	text-align: center;
+}
+.contact-f a{
+	color: #FBC676;
+	padding-left: 3.4em;
+	padding-bottom: 1em;	
+	
 }
 
+.contact-f h2{
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 700;
+	color: #ffffff;
+}
+.contact-f h4{
+	padding-top: 7em;
+	color: #ffffff;
+	font-family: 'Rokkitt', serif;
+	font-size: 1.3125em;
+	font-weight: 700;
+	text-align: center;
+}
 @media (min-width: 768px) {
  .name h3{
 		margin-top: -2em;
@@ -341,6 +377,21 @@ body{
 .home-footer a{
 	color: #FBC676;
 	padding-left: 2em;
+	padding-bottom: 1em;
+}
+.about-footer a{
+	color: #FBC676;
+	padding-left: 2em;
+	padding-bottom: 1em;
+}
+.work-footer a{
+	color: #FBC676;
+	padding-left: 2em;
+	padding-bottom: 1em;
+}
+.contact-f a{
+	color: #FBC676;
+	padding-left: 2.6em;
 	padding-bottom: 1em;
 }
 .squiggle-footer{
