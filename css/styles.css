@@ -451,6 +451,9 @@ body {
 		
 	
 }
+.work-footer a {
+	padding-left: 3.7em;
+}
 }
 @media (min-width: 980px){
 	.squiggle-footer{
