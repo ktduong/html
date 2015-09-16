@@ -4,17 +4,7 @@ body{
 .navbar{
 	padding-top: 1em;
 }
-@media (max-width: 767px){
-	.nav li{
-	display: block;
-	background-color: #C6CDC7;
-}
-.navbar-collapse{
-	padding-bottom: 5em;
-	padding-top: 5em;
-	background-color: #0A3542;
-}
-}
+
 .nav a{
 	color: #7E6B71;
 }
@@ -32,15 +22,17 @@ body{
 .home nav a{
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
-	font-weight: 700;
-	color: #5A3B00;
+	font-weight: 400;
+	color: #7E6B71;
 }
 .home .nav .active a{
-	border-bottom: 2px solid #5A3B00;
+	color: #5A3B00;
+	font-weight: 700;
 	
 }
 .home{
 	background-color: #f7ead7;
+	
 }
 
 .home h2{
@@ -51,7 +43,7 @@ body{
 	border-bottom: 2px solid #5A3B00;
 	color: #5A3B00;
 }
-.home h6{
+.home h3{
 	font-family: 'Rokkitt', serif;
 	font-size: 0.875em;
 	font-weight: 700;
@@ -113,12 +105,15 @@ body{
 	font-weight: 700;
 	text-align: center;
 }
-.mail {
-	padding-left: 1em;
+.mail img{
+	vertical-align: middle;
 	padding-top: 1em;
-	padding-bottom: 1.3em;
+	padding-bottom: 2em;
 	max-width: 100%;
 
+}
+.email{
+	text-align: center;
 }
 .squiggle-footer{
 		padding-left: 1.3em;
@@ -161,6 +156,13 @@ body{
 	border-bottom: 2px solid #0A3542;
 	color: #0A3542;
 
+}
+.work-bg h3{
+	font-family: 'Rokkitt', serif;
+	font-size: 0.875em;
+	font-weight: 700;
+	color: #9F2214;
+	width: 100%;
 }
 .work-bg h4{
 	color: #0A3542;
@@ -297,4 +299,41 @@ body{
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
 	font-weight: 700;
+}
+
+@media (min-width: 768px) {
+ .name h3{
+		margin-top: -2em;
+		text-align: center;
+		margin-bottom: 3em;
+	}
+	nav {
+		position: relative;
+		margin: 3em 0;
+
+	}
+	nav ul {
+		position: absolute;
+		
+	}
+   
+}
+@media (max-width: 767px){
+		.navbar{
+	padding-top: 1em;
+}
+
+	.nav li{
+	display: block;
+	background-color: #C6CDC7;
+}
+.navbar-collapse{
+	padding-bottom: 5em;
+	padding-top: 5em;
+	background-color: #0A3542;
+}
+	.name h3{
+		text-align: center;
+
+	}
 }
