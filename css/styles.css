@@ -115,7 +115,7 @@ body{
 }
 
 .squiggle-footer{
-		padding-left: 1.3em;
+		
 	padding-top: 2em;
 	padding-bottom: 9em;
 	max-width: 100%;
@@ -332,10 +332,23 @@ body{
 	background-color: #0A3542;
 }	
 }
-@media (max-width: 359px){
+@media (max-width: 336px){
 .home-footer a{
 	color: #FBC676;
 	padding-left: 2em;
 	padding-bottom: 1em;
+}
+.squiggle-footer{
+		padding-left: 1.8em;
 	
+}
+}
+@media (min-width: 360px){
+	.squiggle-footer{
+		padding-left: 1.8em;
+	
+}
+.mail{
+	padding-left: 1.6em;
+}
 }
