@@ -445,6 +445,14 @@ body {
 .about .nav .active a{
 	color: #FBC676;
 }
+.arrows img{
+	padding-top: 5em;
+	padding-bottom: 0;
+}
+.x{
+	padding-top: -10em;
+}
+
 }
 @media (min-width: 800px){
 	.about-footer a{
