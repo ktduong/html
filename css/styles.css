@@ -206,6 +206,11 @@ body{
 	font-size: 1.3125em;
 	font-weight: 700;
 }
+.arrows img{
+	padding-top: .4em;
+	padding-bottom: 1em;
+	vertical-align: bottom;
+}
 
 .close-up img{
 	padding-top: 2em;
