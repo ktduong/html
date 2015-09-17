@@ -192,17 +192,22 @@ body {
 .work-footer{
 	background-color: #9F2214; 
 	width: 100%;
+	text-align: center;
 	
+}
+.work-footer img{
+	vertical-align: middle;
+}
+.work-footer img:last-child{
+	padding-bottom: 7em;
 }
 .work-footer p{
 	color: #ffffff;
-	text-align: center;
+	padding-top: 1em;
 }
+
 .work-footer a{
 	color: #FBC676;
-	padding-left: 2.8em;
-	padding-bottom: 1em;
-	
 }
 .work-footer h4{
 	padding-top: 7em;
@@ -210,7 +215,7 @@ body {
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
 	font-weight: 700;
-	text-align: center;
+	
 }
 .arrows img{
 	padding-top: .4em;
@@ -297,16 +302,22 @@ body {
 .about-footer{
 	background-color: #0A3542; 
 	width: 100%;
+	text-align: center;
 	
-	
+}
+.about-footer img{
+	vertical-align: middle;
+}
+.about-footer img:last-child{
+	padding-bottom: 9em;
 }
 .about-footer p{
 	color: #ffffff;
-	text-align: center;
+	padding-top: 1em;
 }
 .about-footer a{
 	color: #FBC676;
-	padding-left: 2.8em;
+	
 	padding-bottom: 1em;
 }
 .about-footer h4{
@@ -315,7 +326,7 @@ body {
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
 	font-weight: 700;
-	text-align: center;
+	
 }
 .about-footer nav ul{
 	width: 100%;
@@ -427,11 +438,6 @@ body {
 }
 .home-footer a{
 	padding-left: 3.7em;
-		
-	
-}
-.work-footer a {
-	padding-left: 3.7em;
 }
 .about-footer a {
 	padding-left: 3.7em;
@@ -449,9 +455,7 @@ body {
 	padding-top: 5em;
 	padding-bottom: 0;
 }
-.x{
-	padding-top: -10em;
-}
+
 
 }
 @media (min-width: 800px){
@@ -492,11 +496,6 @@ body {
 	padding-left: 2em;
 	padding-bottom: 1em;
 
-}
-.work-footer a{
-	color: #FBC676;
-	padding-left: 2em;
-	padding-bottom: 1em;
 }
 .contact-f a{
 	color: #FBC676;
