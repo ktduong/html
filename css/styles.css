@@ -18,7 +18,7 @@ body {
 }
 .home nav span{
 	background-color: #5A3B00;
-	
+
 }
 
 .home nav a{
@@ -30,12 +30,12 @@ body {
 .home .nav .active a{
 	color: #5A3B00;
 	font-weight: 700;
-	
+
 }
 .home{
 	background-color: #f7ead7;
 	width: 100%;
-	
+
 
 }
 
@@ -72,16 +72,16 @@ body {
    	line-height: 1.5em;
    	padding-bottom: 3em;
 
-    
+
 }
 
 
 
 .home-footer{
-	background-color: #5A3B00; 
+	background-color: #5A3B00;
 	width: 100%;
 	height: 100%;
-	
+
 }
 .home-footer p{
 	color: #ffffff;
@@ -90,8 +90,8 @@ body {
 .home-footer a{
 	color: #FBC676;
 	padding-left: 2.8em;
-	padding-bottom: 1em;	
-	
+	padding-bottom: 1em;
+
 }
 
 .home-footer h2{
@@ -117,7 +117,7 @@ body {
 }
 
 .squiggle-footer{
-		
+
 	padding-top: 2em;
 	padding-bottom: 9em;
 	max-width: 100%;
@@ -190,10 +190,10 @@ body {
 }
 
 .work-footer{
-	background-color: #9F2214; 
+	background-color: #9F2214;
 	width: 100%;
 	text-align: center;
-	
+
 }
 .work-footer img{
 	vertical-align: middle;
@@ -215,7 +215,7 @@ body {
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
 	font-weight: 700;
-	
+
 }
 .arrows img{
 	padding-top: .4em;
@@ -236,7 +236,7 @@ body {
 }
 .about nav span{
 	background-color: #ffffff;
-	
+
 }
 
 .about nav a{
@@ -254,7 +254,7 @@ body {
 .about{
 	background-color: #231F20;
 	width: 100%;
-	
+
 }
 .about h2{
 	font-family: 'Rokkitt', serif;
@@ -300,10 +300,10 @@ body {
 	padding-bottom: 2em;
 }
 .about-footer{
-	background-color: #0A3542; 
+	background-color: #0A3542;
 	width: 100%;
 	text-align: center;
-	
+
 }
 .about-footer img{
 	vertical-align: middle;
@@ -317,7 +317,7 @@ body {
 }
 .about-footer a{
 	color: #FBC676;
-	
+
 	padding-bottom: 1em;
 }
 .about-footer h4{
@@ -326,7 +326,7 @@ body {
 	font-family: 'Rokkitt', serif;
 	font-size: 1.3125em;
 	font-weight: 700;
-	
+
 }
 .about-footer nav ul{
 	width: 100%;
@@ -345,19 +345,19 @@ body {
 
 .contact nav span{
 	background-color: #ffffff;
-	
+
 }
 .contact{
-	background-color: #5A3B00; 
+	background-color: #5A3B00;
 	width: 100%;
 	height: 100%;
-	
+
 }
 .contact-f{
-	background-color: #5A3B00; 
+	background-color: #5A3B00;
 	width: 100%;
 
-	
+
 }
 .contact-f p{
 	color: #ffffff;
@@ -366,8 +366,8 @@ body {
 .contact-f a{
 	color: #FBC676;
 	padding-left: 3.4em;
-	padding-bottom: 1em;	
-	
+	padding-bottom: 1em;
+
 }
 
 .contact-f h2{
@@ -395,7 +395,23 @@ body {
 }
 
 
+.thumb li {
+  height: 25em;
+}
 
+
+.left, .right {
+  position: absolute;
+  top: -8em;
+}
+
+.left {
+  left: 2em;
+}
+
+.right {
+  right: 4.5em;
+}
 
 
 
@@ -403,7 +419,7 @@ body {
 @media (min-width: 360px){
 	.squiggle-footer{
 		padding-left: 1.8em;
-	
+
 }
 .mail{
 	padding-left: 1.6em;
@@ -411,9 +427,9 @@ body {
 }
 @media (min-width: 768px) {
  .name h3{
+
 		margin-top: -2em;
 		text-align: center;
-		margin-bottom: 3em;
 }
 	nav {
 		position: relative;
@@ -422,11 +438,11 @@ body {
 }
 	nav ul {
 		position: absolute;
-		
+
 }
 .squiggle-footer{
 		padding-left: 2.5em;
-	
+
 }
 .mail{
 	padding-left: 2.2em;
@@ -456,18 +472,21 @@ body {
 	padding-bottom: 0;
 }
 
+.left, .right {
+  position: static;
+}
 
 }
 @media (min-width: 800px){
 	.about-footer a{
 		padding-left: 4em;
-	
+
 }
 }
 @media (min-width: 980px){
 	.squiggle-footer{
 		padding-left: 3.5em;
-	
+
 }
 .mail{
 	padding-left: 3.2em;
@@ -479,8 +498,8 @@ body {
 }
 .home-footer a{
 	padding-left: 6.3em;
-		
-	
+
+
 }
 }
 
@@ -504,7 +523,7 @@ body {
 }
 .squiggle-footer{
 		padding-left: 1.8em;
-	
+
 }
 }
 @media (max-width: 767px){
