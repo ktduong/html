@@ -87,7 +87,7 @@ body {
 	width: 100%;
 	height: 100%;
 	text-align: center;
-
+padding-bottom: 7em;
 }
 .home-footer p{
 	color: #ffffff;
@@ -153,6 +153,7 @@ body {
 }
 .work-bg{
 	background-color: #C6CDC7;
+	padding-bottom: 7em;
 	width: 100%;
 	height: 100%;
 }
@@ -248,9 +249,9 @@ body {
 
 }
 
-.about nav a{
+.about nav .nav-justified a{
 	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
+	font-size: 2.3125em;
 	font-weight: 700;
 	color: #ffffff;
 }
@@ -263,13 +264,16 @@ body {
 .about{
 	background-color: #231F20;
 	width: 100%;
+	padding-bottom: 5em;
+	height: 100%;
 
 }
-.about h2{
+.about h2 a{
 	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
+	font-size: 0.8em;
 	font-weight: 700;
 	color: #ffffff;
+
 
 }
 .about h3{
@@ -312,6 +316,7 @@ body {
 	background-color: #0A3542;
 	width: 100%;
 	text-align: center;
+	height: 100%;
 
 }
 .about-footer img{
@@ -323,16 +328,17 @@ body {
 .about-footer p{
 	color: #ffffff;
 	padding-top: 1em;
+	font-size: 1.19em;
 }
 .about-footer a{
 	color: #FBC676;
-
+	font-size: 1.19em;
 }
 .about-footer h4{
 	padding-top: 7em;
 	color: #ffffff;
 	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
+	font-size: 1.7em;
 	font-weight: 700;
 
 }
@@ -394,25 +400,37 @@ body {
 
 .left, .right {
   position: absolute;
-  top: -8em;
 }
 
+
+
+
+@media (min-width: 320px){
+	.left, .right{
+		top: -13em;
+  width: 30%;
+  height: 
+}
 .left {
-  left: 2em;
+  left: 4em;
 }
 
 .right {
   right: 4.5em;
 }
 
-
-
-
+}
 @media (min-width: 360px){
 	.squiggle-footer{
 		padding-left: 1.8em;
 
 }
+	.left, .right{
+		top: -11em;
+  width: 30%;
+  height: 
+}
+
 .mail{
 	padding-left: 1.6em;
 }
@@ -421,6 +439,11 @@ body {
  .name h3{
 
 		margin-top: -2em;
+		text-align: center;
+}
+ .about h3{
+
+		margin-top: -3.2em;
 		text-align: center;
 }
 	nav {
@@ -433,8 +456,10 @@ body {
 
 }
 .work-bg p{
-	padding-right: 3em;
+	margin-right: 2.4em;
+	margin-top: -1em;
 }
+
 .squiggle-footer{
 		padding-left: 2.5em;
 
@@ -461,7 +486,17 @@ body {
 
 .left, .right {
   position: static;
+  
 }
+.left {
+  left: 0em;
+}
+
+.right {
+  right: 0em;
+
+}
+
 }
 
 @media (min-width: 980px){
