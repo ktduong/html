@@ -622,7 +622,7 @@ text-align: center;
 	
 	margin-top: -1em;
 	padding-right: 6em;
-	padding-left: 18em;
+	padding-left: 6em;
 
 	
 }
@@ -633,18 +633,19 @@ text-align: center;
   position: absolute;
 }
 .left {
-  left: 13em;
-  top: 5em;
+  left: 14em;
+  top: 8em;
+
 }
 
 .right {
- left: 63em;
-  top: 5em;
+ left: 60em;
+  top: 8em;
   right: 0em;
 
 }
 .work-bg p{
-	
+	padding-left: 9em;
 	margin-top: -1em;
 	padding-right:10em;
 }
