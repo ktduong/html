@@ -189,6 +189,7 @@ body {
 	font-weight: 400;
 	text-align: center;
 	padding-top: 1em;
+	padding-bottom: 1em;
 }
 .work-bg p{
 	font-family: 'Rokkitt', serif;
@@ -324,7 +325,7 @@ body {
 	vertical-align: middle;
 }
 .about-footer img:last-child{
-	padding-bottom: 10em;
+	padding-bottom: 12em;
 }
 .about-footer p{
 	color: #ffffff;
@@ -454,10 +455,10 @@ text-align: center;
 	.left, .right{
 		top: -13em;
   width: 30%;
-  height: 
+  
 }
 .left {
-  left: 4em;
+  left: 7em;
 }
 
 .right {
@@ -473,7 +474,10 @@ text-align: center;
 	.left, .right{
 		top: -11em;
   width: 30%;
-  height: 
+ 
+}
+.left {
+  left: 8em;
 }
 
 .mail{
@@ -507,8 +511,10 @@ text-align: center;
 
 }
 .work-bg p{
-	margin-right: 2.4em;
+	
 	margin-top: -1em;
+	padding-right:5em;
+	
 }
 
 .squiggle-footer{
@@ -536,18 +542,31 @@ text-align: center;
 }
 
 .left, .right {
-  position: static;
   
+  position: absolute;
 }
 .left {
   left: 0em;
+  top: 9em;
 }
 
 .right {
-  right: 0em;
+ left: 33em;
+  top: 9em;
 
 }
-
+.home-footer img:last-child{
+	padding-bottom: 13em;
+}
+.about-footer img:last-child{
+	padding-bottom: 13em;
+}
+.work-footer img:last-child{
+	padding-bottom: 13em;
+}
+.contact-f img:last-child{
+	padding-bottom: 13em;
+}
 }
 
 @media (min-width: 980px){
@@ -563,8 +582,75 @@ text-align: center;
 	font-weight: 700;
 
 }
+.left, .right {
+  
+  position: absolute;
+}
+.left {
+  left: 0em;
+  top: 9em;
 }
 
+.right {
+ left: 43em;
+  top: 9em;
+
+}
+.work-bg p{
+	
+	margin-top: -1em;
+	padding-right:6em;
+	
+}
+}
+@media (min-width: 1280px){
+	.left, .right {
+  
+  position: absolute;
+}
+.left {
+  left: 9em;
+  top: 7em;
+}
+
+.right {
+ left: 40em;
+  top: 7em;
+
+}
+.work-bg p{
+	
+	margin-top: -1em;
+	padding-right: 6em;
+	padding-left: 18em;
+
+	
+}
+@media (min-width: 1920px){
+	.left, .right {
+  
+  position: absolute;
+}
+.left {
+  left: 13em;
+  top: 5em;
+}
+
+.right {
+ left: 63em;
+  top: 5em;
+  right: 0em;
+
+}
+.work-bg p{
+	
+	margin-top: -1em;
+	padding-right:10em;
+	padding-left: 30em;
+
+	
+}
+}
 
 @media (max-width: 336px){
 .squiggle-footer{
