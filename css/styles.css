@@ -6,12 +6,16 @@ body {
 .navbar{
 	padding-top: 1em;
 }
-
-.home .nav a{
-	color: #7E6B71;
+.navbar-brand{
+	padding: 0;
+}
+.name a{
+	color: #9F2214;
+	font-size: 0.6em;
+	padding-top: 2em;
 }
 .homepic{
-	padding-top: 1.5em;
+	padding-top: 2.5em;
 }
 .home .squiggle-blue{
 	width: 100%;
@@ -20,16 +24,17 @@ body {
 	background-color: #5A3B00;
 
 }
-
-.home nav a{
+.home nav .nav-justified a{
 	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
+	font-size: 2.3125em;
 	font-weight: 400;
 	color: #7E6B71;
 }
+
 .home .nav .active a{
 	color: #5A3B00;
 	font-weight: 700;
+
 
 }
 .home{
@@ -39,15 +44,15 @@ body {
 
 }
 
-.home h2{
+.home h2 a{
 	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
+	font-size: .8em;
 	font-weight: 700;
 	color: #5A3B00;
+
 }
 .home h3{
 	font-family: 'Rokkitt', serif;
-	font-size: 0.875em;
 	font-weight: 700;
 	color: #9F2214;
 	text-align: center;
@@ -56,7 +61,7 @@ body {
 }
 .home h4{
 	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
+	font-size: 1.69em;
 	font-weight: 700;
 	line-height: 1.2em;
 	color: #9F2214;
@@ -66,10 +71,10 @@ body {
 
 .home p{
 	font-family: 'Lato', sans-serif;
-	font-size: 0.9em;
+	font-size: 1.19em;
 	text-align: center;
 	font-weight: 400;
-   	line-height: 1.5em;
+   	line-height: 1.7em;
    	padding-bottom: 3em;
 
 
@@ -81,32 +86,34 @@ body {
 	background-color: #5A3B00;
 	width: 100%;
 	height: 100%;
+	text-align: center;
 
 }
 .home-footer p{
 	color: #ffffff;
-	text-align: center;
+	padding-top: 1em;
+	font-size: 1.19em;
+
 }
 .home-footer a{
 	color: #FBC676;
-	padding-left: 2.8em;
-	padding-bottom: 1em;
+	font-size: 1.19em;
 
 }
 
-.home-footer h2{
-	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
-	font-weight: 700;
-	color: #ffffff;
-}
 .home-footer h4{
 	padding-top: 7em;
 	color: #ffffff;
 	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
+	font-size: 1.7em;
 	font-weight: 700;
-	text-align: center;
+	
+}
+.home-footer img{
+	vertical-align: middle;
+}
+.home-footer img:last-child{
+	padding-bottom: 10em;
 }
 .mail{
 	padding-left: 1.3em;
@@ -130,9 +137,9 @@ body {
 
 }
 
-.work-bg nav a{
+.work-bg nav .nav-justified a{
 	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
+	font-size: 2.3125em;
 	font-weight: 700;
 	color: #0A3542;
 }
@@ -149,40 +156,40 @@ body {
 	width: 100%;
 	height: 100%;
 }
-.work-bg h2{
+.work-bg h2 a{
 	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
+	font-size: .8em;
 	font-weight: 700;
 	color: #0A3542;
 
 }
-
 .work-bg h3{
 	font-family: 'Rokkitt', serif;
-	font-size: 0.875em;
 	font-weight: 700;
 	color: #9F2214;
-	width: 100%;
 	text-align: center;
+	width: 100%;
+
 }
-.work-bg h4{
+.work-bg h5{
 	color: #0A3542;
 	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
+	font-size: 2.19em;
 	font-weight: 400;
 	text-align: center;
+	padding-top: 1em;
 }
 .work-bg p{
 	font-family: 'Rokkitt', serif;
-	font-size: 0.875em;
+	font-size: 1.19em;
 	font-weight: 400;
 	color:#0A3542;
 	text-align: center;
 }
-.work-bg a{
+.work-bg .portfolio-item a{
 	color: #9F2214;
 	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
+	font-size: 1.19em;
 	font-weight: 700;
 	padding-top: 1em;
 	padding-bottom: 2em;
@@ -199,21 +206,23 @@ body {
 	vertical-align: middle;
 }
 .work-footer img:last-child{
-	padding-bottom: 7em;
+	padding-bottom: 10em;
 }
 .work-footer p{
 	color: #ffffff;
+	font-size: 1.19em;
 	padding-top: 1em;
 }
 
 .work-footer a{
 	color: #FBC676;
+	font-size: 1.19em;
 }
 .work-footer h4{
 	padding-top: 7em;
 	color: #ffffff;
 	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
+	font-size: 1.7em;
 	font-weight: 700;
 
 }
@@ -275,13 +284,13 @@ body {
 .about h4{
 	color: #ffffff;
 	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
+	font-size: 2.3125em;
 	font-weight: 400;
 	text-align: center;
 }
 .about p{
 	font-family: 'Rokkitt', serif;
-	font-size: 0.875em;
+	font-size: 1.5em;
 	font-weight: 400;
 	color:#ffffff;
 	text-align: center;
@@ -289,7 +298,7 @@ body {
 .about a{
 	color: #FBC676;
 	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
+	font-size: 1.19em;
 	font-weight: 700;
 	padding-top: 1em;
 	padding-bottom: 2em;
@@ -309,7 +318,7 @@ body {
 	vertical-align: middle;
 }
 .about-footer img:last-child{
-	padding-bottom: 9em;
+	padding-bottom: 10em;
 }
 .about-footer p{
 	color: #ffffff;
@@ -318,7 +327,6 @@ body {
 .about-footer a{
 	color: #FBC676;
 
-	padding-bottom: 1em;
 }
 .about-footer h4{
 	padding-top: 7em;
@@ -359,23 +367,7 @@ body {
 
 
 }
-.contact-f p{
-	color: #ffffff;
-	text-align: center;
-}
-.contact-f a{
-	color: #FBC676;
-	padding-left: 3.4em;
-	padding-bottom: 1em;
 
-}
-
-.contact-f h2{
-	font-family: 'Rokkitt', serif;
-	font-size: 1.3125em;
-	font-weight: 700;
-	color: #ffffff;
-}
 .contact h3{
 	font-family: 'Rokkitt', serif;
 	font-size: 0.875em;
@@ -440,6 +432,9 @@ body {
 		position: absolute;
 
 }
+.work-bg p{
+	padding-right: 3em;
+}
 .squiggle-footer{
 		padding-left: 2.5em;
 
@@ -452,15 +447,7 @@ body {
 	font-weight: 700;
 
 }
-.home-footer a{
-	padding-left: 3.7em;
-}
-.about-footer a {
-	padding-left: 3.7em;
-}
-.contact-f a {
-	padding-left: 4em;
-}
+
 .about ul img{
 	padding-left: 4em;
 }
@@ -475,14 +462,8 @@ body {
 .left, .right {
   position: static;
 }
+}
 
-}
-@media (min-width: 800px){
-	.about-footer a{
-		padding-left: 4em;
-
-}
-}
 @media (min-width: 980px){
 	.squiggle-footer{
 		padding-left: 3.5em;
@@ -496,31 +477,10 @@ body {
 	font-weight: 700;
 
 }
-.home-footer a{
-	padding-left: 6.3em;
-
-
-}
 }
 
 
 @media (max-width: 336px){
-.home-footer a{
-	color: #FBC676;
-	padding-left: 2em;
-	padding-bottom: 1em;
-}
-.about-footer a{
-	color: #FBC676;
-	padding-left: 2em;
-	padding-bottom: 1em;
-
-}
-.contact-f a{
-	color: #FBC676;
-	padding-left: 2.6em;
-	padding-bottom: 1em;
-}
 .squiggle-footer{
 		padding-left: 1.8em;
 
